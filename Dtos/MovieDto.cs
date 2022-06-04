@@ -11,7 +11,7 @@ namespace WebAPI.Dtos
         public string StoryLine {get; set;}
         public int Year {get; set;}
 
-        public IFormFile PosterUrl {get; set;}
+        public IFormFile? PosterUrl {get; set;}
 
         public byte GenreId {get; set;}
     }
